@@ -6,16 +6,15 @@
 /*   By: yaassila <yaassila@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/30 13:10:05 by yaassila          #+#    #+#             */
-/*   Updated: 2022/12/08 09:44:18 by yaassila         ###   ########.fr       */
+/*   Updated: 2022/12/08 12:04:06 by yaassila         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#define _GNU_SOURCE
 #include "get_next_line.h"
-#include <dlfcn.h>
 #include <fcntl.h>
-#include <stdio.h>
+#include <stdlib.h>
 #include <string.h>
+#include <unistd.h>
 
 int	main(int argc, char **argv)
 {
