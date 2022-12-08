@@ -4,6 +4,7 @@
 
 ```sh
 git clone https://github.com/younesaassila/get_next_line-tester.git
+mv get_next_line-tester/* .
 ```
 
 ## Build
