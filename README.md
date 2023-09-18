@@ -23,6 +23,14 @@ find .. -maxdepth 1 -type f -name '*_bonus.c' | xargs cc -Wall -Wextra -Werror -
 
 ## Usage
 
+### File(s)
+
 ```sh
 ./tester <files>
+```
+
+### Standard input
+
+```sh
+./tester /dev/stdin
 ```
