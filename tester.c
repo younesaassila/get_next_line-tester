@@ -1,16 +1,16 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   main.c                                             :+:      :+:    :+:   */
+/*   tester.c                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: yaassila <yaassila@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/11/30 13:10:05 by yaassila          #+#    #+#             */
-/*   Updated: 2022/12/08 12:04:06 by yaassila         ###   ########.fr       */
+/*   Created: 2022/11/30 13:00:00 by yaassila          #+#    #+#             */
+/*   Updated: 2023/09/18 20:00:00 by yaassila         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "get_next_line.h"
+#include "../get_next_line.h"
 #include <fcntl.h>
 #include <stdlib.h>
 #include <string.h>
