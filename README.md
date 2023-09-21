@@ -12,13 +12,15 @@ cd get_next_line-tester
 ### Mandatory part
 
 ```sh
-find .. -maxdepth 1 -type f -name '*.c' ! -name '*_bonus.c' | xargs cc -Wall -Wextra -Werror -D BUFFER_SIZE=42 -o tester tester.c
+BUFFER_SIZE=42
+cc -D BUFFER_SIZE=$BUFFER_SIZE -o tester tester.c ../get_next_line.c ../get_next_line_utils.c
 ```
 
 ### Bonus part
 
 ```sh
-find .. -maxdepth 1 -type f -name '*_bonus.c' | xargs cc -Wall -Wextra -Werror -D BUFFER_SIZE=42 -o tester tester.c
+BUFFER_SIZE=42
+cc -D BUFFER_SIZE=$BUFFER_SIZE -o tester tester.c ../get_next_line_bonus.c ../get_next_line_utils_bonus.c
 ```
 
 ## Usage
